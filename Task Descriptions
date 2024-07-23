@@ -1,0 +1,20 @@
+Task Descriptions
+Task 1: Data Exploration and Manipulation
+Reads the stock data from stocks.csv.
+Calculates the average closing price for each ticker and saves it to stock_data.csv.
+Calculates the daily percentage change in the closing price for each ticker and saves separate CSV files in the data directory.
+Task 2: Time Series Analysis
+Resamples the data to a monthly frequency and saves separate CSV files in the monthData directory.
+Calculates the rolling 30-day average of the closing price for each ticker and adds a column in the respective files in the data directory.
+Task 3: Data Merging and Joining
+Reads fundamental and price data from fundamentals.csv and prices.csv.
+Merges the data on the Ticker column.
+Calculates the market capitalization to price ratio for each ticker and saves it to stockInfo.csv.
+Task 4: Performance Analysis
+Reads the stock data of each ticker and calculates daily profit/loss.
+Calculates and adds cumulative profit/loss and drawdown columns.
+Updates the respective files in the data directory.
+Assumptions
+The input CSV files are correctly formatted and contain the necessary columns.
+The script assumes the data directories (data and monthData) already exist or creates them if not.
+The calculations are based on the provided stock data and do not consider external factors.
